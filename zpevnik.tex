@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[chorded]{songs}
+
+\usepackage[default,oldstyle,scale=0.95]{opensans}
+\usepackage[a5paper,top=1in, left = 0.9in, right=0.9in, bottom=0.8in]{geometry}
+\renewcommand{\lyricfont}{\opensans}
+\renewcommand{\printchord}[1]{\bfseries#1}
+\renewcommand{\clineparams}{
+  \baselineskip=10pt
+  \lineskiplimit=1pt
+  \lineskip=1pt
+}
+\renewcommand{\everychorus}{\textnote{R:}}
+\versesep=10pt plus 8pt minus 2pt
+\afterpreludeskip=0pt plus 5pt
+\beforepostludeskip=0pt plus 5pt
+\songcolumns{1}
+
+
+
+\noversenumbers
+
+\begin{document}
+
+\begin{titlepage}
+   \begin{center}
+       \vspace*{1cm}
+
+       \textbf{\Huge{Oddílový zpěvník}}
+
+       \vspace{0.5cm}
+        \Large{97. oddíl Paráda a Vlčáci}
+            
+       \vspace{1.5cm}
+
+       \vfill
+            
+            
+   \end{center}
+\end{titlepage}
+
+
+\begin{songs}{}
+\input{pisne/batalion}
+\end{songs}
+
+\end{document}
